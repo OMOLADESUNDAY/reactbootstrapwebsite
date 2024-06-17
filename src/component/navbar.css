@@ -1,0 +1,43 @@
+.bg-body-tertiary{
+    width: 100% !important;
+    background-color: rgb(16, 117, 218) !important;
+    box-shadow: 2px 3px 4px rgb(1, 54, 108);
+    position: sticky;
+    color: #fff !important;
+}
+.navbarCon{
+    background-color: rgb(16, 117, 218);
+    width: 100%;
+    padding: 1rem 0;
+}
+.logo{
+    width: 30%;
+    text-align: left;
+    color: #fff !important;
+}
+.kk{
+    width: 70%;
+}
+.k{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    color: #fff !important;
+}
+.k >a{
+    color: #fff !important;
+}
+.menu{
+    color: #fff;
+    background-color: #fff;
+}
+#basic-nav-dropdown{
+    background-color:rgb(16, 117, 218) ;
+    color: #fff;
+}
+.dropdownn>a{
+   color: rgb(16, 117, 218);
+}
+/* .dropdownn >a{
+    color: #fff;
+} */

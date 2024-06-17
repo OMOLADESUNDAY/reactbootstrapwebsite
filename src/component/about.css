@@ -1,0 +1,39 @@
+.aboutCon{
+   background-color: #fff;
+   padding-top: 1rem;
+}
+.aboutCon >h1{
+    text-align: center;
+}
+.aboutCon>p{
+    text-align: center;
+}
+.image1{
+    width: 100%;
+    object-fit: cover;
+}
+.ghfg{
+    padding: 2rem;
+}
+.ghf{
+    padding: 0;
+}
+.accordionContainer{
+    padding: 0;
+    /* margin-left:0.5rem ; */
+}
+.accordion{
+    width: 100%;
+    height: 100%;
+    padding-left: 0.5rem;
+    --bs-accordion-btn-bg:rgb(16, 117, 218) ;
+    --bs-accordion-active-bg:rgb(16, 117, 218) ;
+}
+
+
+@media screen and (max-width:768px) {
+    .accordion{
+        padding:0;
+        margin-top: 1rem;
+    }
+}
