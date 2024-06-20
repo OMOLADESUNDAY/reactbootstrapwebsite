@@ -1,7 +1,6 @@
 import React from 'react'
-import { Card, Image, ListGroup } from 'react-bootstrap'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import { Card } from 'react-bootstrap'
+
 import Col from 'react-bootstrap/Col';
 import './serviceItem.css'
 
