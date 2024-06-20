@@ -1,9 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import "./service.css"
-import { Card, ListGroup } from 'react-bootstrap';
 import { serviceData } from './data';
 import ServiceItem from './ServiceItem';
 const Service = () => {
