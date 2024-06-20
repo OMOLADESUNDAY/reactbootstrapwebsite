@@ -1,9 +1,10 @@
 .aboutCon{
    background-color: #fff;
-   padding-top: 1rem;
+   padding-top: 2rem;
 }
 .aboutCon >h1{
     text-align: center;
+    color:rgb(16, 117, 218) ;
 }
 .aboutCon>p{
     text-align: center;

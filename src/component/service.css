@@ -1,0 +1,15 @@
+.serviceContainer{
+    padding-top: 2rem;
+    color: #000000;
+    background-color: #fff;
+}
+.serviceContainer >h1{
+    color:rgb(16, 117, 218) ;
+}
+.serviceContainer > h1,p{
+    text-align: center;
+}
+.servi{
+    display: flex;
+    border: solid blue;
+}

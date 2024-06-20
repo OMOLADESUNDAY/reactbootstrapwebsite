@@ -1,0 +1,12 @@
+.serviceItem{
+   margin: 1rem 0;
+}
+.ser{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+.sever{
+    display: flex !important;
+    /* border: solid; */
+}
