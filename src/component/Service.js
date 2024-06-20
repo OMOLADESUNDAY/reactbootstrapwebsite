@@ -14,12 +14,7 @@ const Service = () => {
          <Row>
          {serviceData.map((servicedata)=>{
             return(
-              // <Row className='servi'>
                     <ServiceItem key={servicedata.id} serviceDdata={servicedata}/>
-              // </Row>
-                
-              
-              
             )})}  
          </Row>
         
