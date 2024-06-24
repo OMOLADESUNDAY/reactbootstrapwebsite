@@ -1,27 +1,32 @@
-import React from 'react'
-import { Card } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Card,Button } from 'react-bootstrap'
 
 import Col from 'react-bootstrap/Col';
 import './serviceItem.css'
 
 const ServiceItem = ({serviceDdata}) => {
       const {name,image,description}=serviceDdata
+      const [isExpanded, setIsExpanded] = useState(false);
+
+      const toggleExpansion = () => {
+        setIsExpanded(!isExpanded);
+      };
     
   return (    
         <Col sm={12} md={6} lg={4} className='serviceItem'>
-           <Card style={{ width: "100% ",boxShadow:"2px 3px 4px 4px rgb(16, 117, 218) "}}>
+           <Card style={{ width: "90% ",margin:"auto",boxShadow:"1px 1px 2px rgb(16, 117, 218)",textOverflow: 'ellipsis'}} >
       <Card.Img variant="top" src={image} className='ser'/>
       <Card.Body>
         <Card.Title>{name}</Card.Title>
-        <Card.Text>
+        <Card.Text className={isExpanded ? '' : 'multi-line-truncate'} >
          {description}
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Card.Link  variant="link" className='show' onClick={toggleExpansion} > {isExpanded ? 'Show Less' : 'Show More'}</Card.Link>
       </Card.Body>
     </Card>
+      
         </Col>
       
     

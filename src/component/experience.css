@@ -1,0 +1,19 @@
+.eximgcon{
+    /* border: solid; */
+}
+.experienceimg{
+    width: 100%;
+    object-fit: cover;
+}
+.expbgtext{
+    color: #000000;
+    font-weight: bolder;
+}
+.exptext{
+    color: #000000;
+}
+.experienceContainer{
+    padding-top: 2rem;
+    width: 100%;
+    background-color:aliceblue;
+}

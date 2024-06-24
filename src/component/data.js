@@ -1,9 +1,9 @@
-import image1 from "../images/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg";
-import image2 from "../images/photo-closeup-shot-delicious-food_829042-73.jpg";
-import image3 from '../images/pork-hock-german-with-sauces-dark-background_1150-45508.jpg';
-import image4 from '../images/side-view-fried-meat-with-french-fries-ketchup_141793-4908 (1).jpg';
-import image5 from "../images/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg";
-import image6 from "../images/photo-closeup-shot-delicious-food_829042-73.jpg";
+import image1 from "../images/3d-internet-secuirty-badge_1048-18107.jpg";
+import image2 from "../images/frontend.jpg";
+import image3 from '../images/backend.jpg';
+import image4 from '../images/2111.w013.n001.570B.p30.570.jpg';
+import image5 from "../images/modern-data-center-providing-cloud-services-enabling-businesses-access-computing-resources-storage-demand-internet-server-room-infrastructure-3d-render-animation.jpg";
+import image6 from "../images/OQRG580.jpg";
 export const serviceData=[
     {   id:0,
         name:'Cybersecurity engineer',
