@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import caro1 from '../images/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg'
-import caro2 from '../images/photo-closeup-shot-delicious-food_829042-73.jpg'
-import caro3 from '../images/pork-hock-german-with-sauces-dark-background_1150-45508.jpg'
+import caro1 from '../images/istockphoto-1341853306-612x612.jpg'
+import caro2 from '../images/istockphoto-1356554393-612x612.jpg'
+import caro3 from '../images/istockphoto-1471444483-612x612.jpg'
 import './home.css'
 import Button from 'react-bootstrap/Button';
 const Home = () => {
