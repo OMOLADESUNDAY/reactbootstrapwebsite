@@ -1,0 +1,37 @@
+.workline{
+    box-shadow: 1px 0px 0px  #fff;
+    margin-top: 1rem;
+}
+.worksContainer{
+    text-align: center;
+    padding-top: 1rem;
+}
+.worksContainer >h1,h2{
+    color: #fff;    
+}
+.icon{
+    text-align: center;
+    font-size: 2rem;
+}
+.workline div{
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+}
+.workline:hover{
+    cursor: pointer;
+    transform:translateY(-50px);
+    background-color: #fff;
+    color: rgb(10, 51, 173);
+    transition: ease-in 0.5s;
+    box-shadow: none;
+    border-radius: 5px;
+}
+@media screen and (max-width:1024px) {
+    .workline{
+        box-shadow: none;
+    }
+}

@@ -4,10 +4,24 @@
    /* margin: auto; */
   
 }
+.serviceItem:hover{
+  transform: scaleX(105%);
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+ 
+}
+.servicecard:hover{
+  box-shadow: 2px 3px 4px rgb(10, 179, 7);
+}
 .ser{
     width: 100%;
     height: 40vh;
     object-fit: cover;
+}
+.ser:hover{
+  cursor: -moz-zoom-in; 
+  cursor: -webkit-zoom-in; 
+  cursor: zoom-in;
 }
 .sever{
     display: flex !important;

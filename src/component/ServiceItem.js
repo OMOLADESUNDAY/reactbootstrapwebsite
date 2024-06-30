@@ -14,7 +14,7 @@ const ServiceItem = ({serviceDdata}) => {
     
   return (    
         <Col sm={12} md={6} lg={4} className='serviceItem'>
-           <Card style={{ width: "90% ",margin:"auto",boxShadow:"1px 1px 2px rgb(16, 117, 218)",textOverflow: 'ellipsis'}} >
+           <Card style={{ width: "90% ",margin:"auto",boxShadow:"1px 1px 2px rgb(16, 117, 218)", textOverflow: 'ellipsis'}} className='servicecard' >
       <Card.Img variant="top" src={image} className='ser'/>
       <Card.Body>
         <Card.Title>{name}</Card.Title>

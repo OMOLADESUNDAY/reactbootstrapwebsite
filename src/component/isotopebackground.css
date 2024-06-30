@@ -1,0 +1,14 @@
+.iso {
+    margin-top: 2rem;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    min-height: 50vh;
+    position: relative;
+    color: #fff;
+  }
+.canvas {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+  }

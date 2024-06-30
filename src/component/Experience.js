@@ -11,10 +11,10 @@ const Experience = () => {
     <div className='experienceContainer'>
         <Container >
       <Row>
-        <Col sm={12} md={6} xs={12} lg={6} className='eximgcon' >
+        <Col sm={12} md={12} xs={12} lg={6} className='eximgcon' >
             <Image src={experienceimage} className='experienceimg'/>
         </Col>
-        <Col sm={12} md={6} xs={12} lg={6}>
+        <Col sm={12} md={12} xs={12} lg={6}>
             <h1 className='expbgtext'>Experience the magic of Interiokit. Contact us to discuss your project.</h1>
             <p className='exptext'>Maecenas massa inceptos placerat ultricies ridiculus vulputate torquent curae. Tortor cubilia risus nam cursus sit dui. Facilisi vivamus fermentum commodo nascetur orci morbi quisque ipsum suscipit vel.</p>
             <div>
