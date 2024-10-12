@@ -4,6 +4,16 @@ import image3 from '../images/backend.jpg';
 import image4 from '../images/2111.w013.n001.570B.p30.570.jpg';
 import image5 from "../images/modern-data-center-providing-cloud-services-enabling-businesses-access-computing-resources-storage-demand-internet-server-room-infrastructure-3d-render-animation.jpg";
 import image6 from "../images/OQRG580.jpg";
+import testimonial1 from '../images/charismatic.jpg'
+import testimonial2 from '../images/cheerful-young-man-dressed-shirt-wearing-hat_171337-17093 (1).jpg'
+import testimonial3 from '../images/african-american-man-wearing-round-glasses_273609-10068.jpg'
+import testimonial4 from '../images/handsome-smiling-young-african-man_171337-9650.jpg'
+import testimonial5 from '../images/young-professional-hairdresser-woman-apron-cutting-hair-with-trimmer-man-client-looking-front-being-surprised-standing-green-wall_141793-96582.jpg'
+import testimonial6 from '../images/portrait-young-woman-smiling-isolated_23-2149158566.jpg'
+import testimonial7 from '../images/happy.jpg'
+import testimonial8 from '../images/portrait-young-smiling-latin-man-green-shirt-glasses-feeling-confident-isolated-gray-background_1016700-2628.jpg'
+import testimonial9 from '../images/portrait-happy-black-skin-female-signaling-with-thumbs-up-isolated-mint-color-background_935410-1201.jpg'
+import testimonial10 from '../images/3d-rendering-cute-boy-holding-plate-with-cake_1142-34361.jpg'
 export const serviceData=[
     {   id:0,
         name:'Cybersecurity engineer',
@@ -35,4 +45,67 @@ export const serviceData=[
         image:image6,
         description:"The invisible bridge connecting everything! As a network programmer, I build the communication channels that allow your website to interact with the outside world. I write code that enables data exchange between your server and various networks or devices. This could involve building APIs (application programming interfaces) to connect with external services or protocols for secure data transfer."
     }
+]
+export const TestimonyData=[
+    {
+        id: 1,
+        name: "Alice Johnson",
+        testimony: "This product has changed my life for the better. Highly recommend!",
+        image:testimonial1
+        
+      },
+      {
+        id: 2,
+        name: "Bob Smith",
+        testimony: "Great service and excellent quality. Will buy again.",
+        image:testimonial2
+      },
+      {
+        id: 3,
+        name: "Carol White",
+        testimony: "The customer support was outstanding. Thank you for all your help!",
+        image:testimonial3
+      },
+      {
+        id: 4,
+        name: "David Brown",
+        testimony: "I am very satisfied with my purchase. Five stars!",
+        image:testimonial4
+      },
+      {
+        id: 5,
+        name: "Eve Davis",
+        testimony: "Fantastic experience from start to finish. Will recommend to others.",
+        image:testimonial5
+      },
+      {
+        id: 6,
+        name: "Frank Wilson",
+        testimony: "High quality and fast delivery. Couldn’t ask for more.",
+        image:testimonial6
+      },
+      {
+        id: 7,
+        name: "Grace Lee",
+        testimony: "The best product I have ever used. Absolutely love it!",
+        image:testimonial7
+      },
+      {
+        id: 8,
+        name: "Henry Walker",
+        testimony: "Excellent value for money. I am very happy with my purchase.",
+        image:testimonial8
+      },
+      {
+        id: 9,
+        name: "Isabella Martinez",
+        testimony: "The product exceeded my expectations. Highly impressed.",
+        image:testimonial9
+      },
+      {
+        id: 10,
+        name: "Jack Taylor",
+        testimony: "A wonderful experience. Will definitely buy from this company again.",
+        image:testimonial10
+      }
 ]

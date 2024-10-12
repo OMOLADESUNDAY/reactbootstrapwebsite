@@ -18,7 +18,7 @@ const ServiceItem = ({serviceDdata}) => {
       <Card.Img variant="top" src={image} className='ser'/>
       <Card.Body>
         <Card.Title>{name}</Card.Title>
-        <Card.Text className={isExpanded ? '' : 'multi-line-truncate'} >
+        <Card.Text style={{textAlign:'left'}} className={isExpanded ? '' : 'multi-line-truncate'} >
          {description}
         </Card.Text>
       </Card.Body>
