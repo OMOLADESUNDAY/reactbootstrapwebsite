@@ -2,6 +2,9 @@
     width: 300px;
     margin: auto;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: -2px 3px 5px rgb(225, 4, 4);
+    padding: 1rem;
 }
 .testimonyimgcontainer{
     width: 100px;

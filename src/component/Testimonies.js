@@ -9,6 +9,7 @@ import TestimonyItem from './TestimonyItem';
 
 const Testimonies = () => {
   var settings = {
+    autoplay:true,
     dots: true,
     infinite: true,
     speed: 500,
@@ -44,7 +45,7 @@ const Testimonies = () => {
   };
   return (
     <div >
-      <h2 className='majorTestimonyText'>Our Testimonials</h2>
+      <h1 className='majorTestimonyText'>Our Testimonials</h1>
     <Slider className='testimonySlider' {...settings}>
         {TestimonyData.map((singleTestimonyItem)=>{
         return <TestimonyItem  key={singleTestimonyItem.id} singleTestimonyItem={singleTestimonyItem} />
