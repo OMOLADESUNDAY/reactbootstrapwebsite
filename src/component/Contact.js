@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 const Contact = () => {
   return (
     <section className='contactContainer'>
-      <h2 className='majorTestimonyText'>Contact Us</h2>
+      <h2 className='majorContactText'>Contact Us</h2>
       <Form>
         <Container fluid> 
       <Row>
@@ -40,7 +40,7 @@ const Contact = () => {
       </Form.Group>
     </Row>
     <div className='submitbtn'>
-    <Button  variant="dark">Submit</Button>{' '}
+    <Button  variant="primary">Submit</Button>{' '}
     </div>
     
   </Container>    

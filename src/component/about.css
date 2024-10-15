@@ -4,7 +4,7 @@
 }
 .aboutCon >h1{
     text-align: center;
-    color:rgb(16, 117, 218) ;
+    color:rgb(16, 117, 218);
 }
 .aboutCon>p{
     text-align: center;
@@ -28,8 +28,8 @@
     width: 100%;
     height: 100%;
     padding-left: 0.5rem;
-    --bs-accordion-btn-bg:rgb(16, 117, 218) ;
-    --bs-accordion-active-bg:rgb(16, 117, 218) ;
+    --bs-accordion-btn-bg:rgb(118, 170, 222);;
+    --bs-accordion-active-bg:rgb(118, 170, 222); 
 }
 
 

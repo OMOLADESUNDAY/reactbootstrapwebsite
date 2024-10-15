@@ -1,0 +1,15 @@
+.footerContainer{
+    background-color: rgb(118, 170, 222);
+    padding: 2rem 0;
+}
+.footerlogo{
+    color: #000;
+    background-color: rgb(118, 170, 222);
+}
+.navbarBrand{
+    background-color: rgb(118, 170, 222) !important;
+    box-shadow: none !important;
+}
+.footernavlink >div>a {
+    margin: 0.5rem 0;
+}

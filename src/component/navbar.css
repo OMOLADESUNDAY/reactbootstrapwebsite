@@ -1,12 +1,12 @@
 .bg-body-tertiary{
     width: 100% !important;
-    background-color: rgb(16, 117, 218) !important;
+    background-color: rgb(118, 170, 222) !important;
     box-shadow: 2px 3px 4px rgb(1, 54, 108);
     position: sticky;
     color: #fff !important;
 }
 .navbarCon{
-    background-color: rgb(16, 117, 218);
+    background-color: rgb(118, 170, 222);
     width: 100%;
     padding: 1rem 0;
 }
@@ -32,7 +32,7 @@
     background-color: #fff;
 }
 #basic-nav-dropdown{
-    background-color:rgb(16, 117, 218) ;
+    background-color:rgb(118, 170, 222);
     color: #fff;
 }
 .dropdownn>a{

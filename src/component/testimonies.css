@@ -1,16 +1,14 @@
 .testimonySlider{
     margin: auto;
     width: 90%;
+    padding-bottom: 1rem;
 }
 .majorTestimonyText{
     text-align: center;
     margin: 2rem;
     color: #fff;
 }
-.contactContainer{
-    width: 90%;
-    margin: auto;
-}
+
 .slick-dots >li >button:before {
     color: #fff !important; 
   }
