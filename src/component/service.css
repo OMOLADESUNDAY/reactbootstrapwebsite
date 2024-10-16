@@ -13,3 +13,7 @@
     display: flex;
     border: solid blue;
 }
+.servicetexty{
+    padding: 1rem 2rem;
+    text-align: justify;
+}

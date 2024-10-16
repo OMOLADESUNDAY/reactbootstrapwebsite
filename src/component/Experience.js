@@ -15,8 +15,11 @@ const Experience = () => {
             <Image src={experienceimage} className='experienceimg'/>
         </Col>
         <Col sm={12} md={12} xs={12} lg={6}>
-            <h1 className='expbgtext'>Experience the magic of Interiokit. Contact us to discuss your project.</h1>
-            <p className='exptext'>Maecenas massa inceptos placerat ultricies ridiculus vulputate torquent curae. Tortor cubilia risus nam cursus sit dui. Facilisi vivamus fermentum commodo nascetur orci morbi quisque ipsum suscipit vel.</p>
+            <h1 className='expbgtext'>Experience the magic of Online awareness. Contact us to discuss your project.</h1>
+            <p className='exptext'> Webro specializes in web development, delivering innovative solutions across industries
+               like e-commerce and healthcare. Our skilled team focuses on creating custom, user-centered 
+               websites and applications while collaborating closely with clients to turn their visions into 
+               reality.</p>
             <div>
                 <p>Design & Branding</p>
                 <ProgressBar striped variant="primary" now={89} />
