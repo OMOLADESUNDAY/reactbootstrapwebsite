@@ -13,3 +13,13 @@
 .footernavlink >div>a {
     margin: 0.5rem 0;
 }
+@media screen and (max-width:540px) {
+    .socialIcons{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .footernavlink >div>a{
+        text-align: center;
+    }
+}

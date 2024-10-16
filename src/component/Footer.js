@@ -22,20 +22,20 @@ const Footer = () => {
                 <Col lg={9}>
                 <Row className='footernavlink'>
                    
-                    <Col>
+                    <Col lg={4}  xs={12}>
                     <Nav.Link href="#home">Home</Nav.Link>
                       <Nav.Link href="#about">About</Nav.Link>
                       <Nav.Link href="#service">Service</Nav.Link>
                       <Nav.Link href="#works">Works</Nav.Link>
                     </Col>
-                    <Col>
+                    <Col  lg={4} xs={12}>
                     <Nav.Link href="#works">Consultation</Nav.Link>
                       <Nav.Link href="#contact">Contact us</Nav.Link>
                       <Nav.Link href="#experience">Experience</Nav.Link>
                       <Nav.Link href="#contact">live Chat</Nav.Link>
                     </Col>
-                    <Col>
-                    <Nav.Link href="#home"><FaFacebook /></Nav.Link>
+                    <Col  lg={4} xs={12} className='socialIcons'>
+                      <Nav.Link href="#home"><FaFacebook /></Nav.Link>
                       <Nav.Link href="#link"><IoLogoWhatsapp /></Nav.Link>
                       <Nav.Link href="#home"><FaLinkedin /></Nav.Link>
                       <Nav.Link href="#link"><FaSquareInstagram /></Nav.Link>
