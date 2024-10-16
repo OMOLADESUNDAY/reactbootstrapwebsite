@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Nav, Navbar } from 'react-bootstrap';
+import Logo from "../images/webro logo.png"
 import './footer.css'
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
             <Row>
                 <Col lg={3} className='footerlogo'>
                 <Navbar expand="lg" className="bg-body-tertiary navbarBrand">
-                      <Navbar.Brand  href="#home">React-Bootstrap</Navbar.Brand>
+                      <Navbar.Brand  href="#home"><img className='logoimg' src={Logo} alt="logo" /></Navbar.Brand>
                 </Navbar>                
                 </Col>
                 <Col lg={9}>
