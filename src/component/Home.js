@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import caro1 from '../images/istockphoto-1341853306-612x612.jpg'
-import caro2 from '../images/istockphoto-1356554393-612x612.jpg'
-import caro3 from '../images/istockphoto-1471444483-612x612.jpg'
+import caro1 from '../images/caro1.jpg'
+import caro2 from '../images/caro2.jpg'
+import caro3 from '../images/backend.jpg'
 import './home.css'
 import Button from 'react-bootstrap/Button';
 const Home = () => {
@@ -13,28 +13,28 @@ const Home = () => {
             
             <img alt="First slide" className='caroimg' src={caro1} />
         <Carousel.Caption className='carocaption'>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1>Crafting Digital Experiences</h1>
+            <h3>Unlock the potential of your online presence with tailored website development solutions.</h3>
             <Button variant="primary">Get Started</Button>
       </Carousel.Caption>
             
       
     </Carousel.Item>
     <Carousel.Item className='carouselitem'>
-      <img alt="Second slide" className='caroimg' src={caro2}/>
+      <img alt="Second slide" className='caroimg carousel-img' src={caro2}/>
       <Carousel.Caption className='carocaption'>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h1 className='caro2text'>Custom Web Design</h1>
+        <h3> We create unique designs that align with your brand’s identity.</h3>
         <Button variant="primary">Get Started</Button>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item className='carouselitem'>
       <img alt="Third slide" className='caroimg' src={caro3} />
       <Carousel.Caption className='carocaption'>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
+        <h1>Fast & Secure</h1>
+        <h3>
+        We focus on speed, security, and performance for an optimal user experience.
+        </h3>
         <Button variant="primary">Get Started</Button>
       </Carousel.Caption>
     </Carousel.Item>

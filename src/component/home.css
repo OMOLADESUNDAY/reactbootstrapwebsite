@@ -14,6 +14,25 @@
     opacity: 0.9;
   
 }
+.carousel-img {
+    opacity: 1; /* Adjust the opacity value */
+    position: relative;
+  }
+.carousel-img::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensure the overlay appears above the image */
+    /* opacity: 0; */
+}
+.caro2text{
+    color: rgb(40, 47, 243);
+}
+
 .carocaption{
     position: absolute;
     bottom: 6rem;

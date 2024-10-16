@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 const Contact = () => {
   return (
     <section className='contactContainer'>
-      <h2 className='majorContactText'>Contact Us</h2>
+      <h1 className='majorContactText primary'>Contact Us</h1>
       <Form>
         <Container fluid> 
       <Row>

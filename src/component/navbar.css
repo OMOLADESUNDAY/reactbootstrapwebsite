@@ -38,6 +38,12 @@
 .dropdownn>a{
    color: rgb(16, 117, 218);
 }
+.logoimg{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 /* .dropdownn >a{
     color: #fff;
 } */
