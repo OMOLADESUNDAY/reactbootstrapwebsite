@@ -21,7 +21,6 @@ const Footer = () => {
                 </Col>
                 <Col lg={9}>
                 <Row className='footernavlink'>
-                   
                     <Col lg={4}  xs={12}>
                     <Nav.Link href="#home">Home</Nav.Link>
                       <Nav.Link href="#about">About</Nav.Link>
