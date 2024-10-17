@@ -92,7 +92,10 @@ const Contact = () => {
       </Row>
       <div className='submitbtn'>
       <Button  variant="primary" type='submit'>Submit</Button>{' '}
+      <div>
       {emailLoading?<Spinnner/>:''}
+      </div>
+     
       </div>
       
     </Container>    
