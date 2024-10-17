@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className='footerContainer'>
+    <div className='footerContainer' id='footer'>
         <Container>
             <Row>
                 <Col lg={3} className='footerlogo'>
@@ -35,10 +35,11 @@ const Footer = () => {
                       <Nav.Link href="#contact">live Chat</Nav.Link>
                     </Col>
                     <Col  lg={4} xs={12} className='socialIcons'>
-                      <Nav.Link href="#home"><FaFacebook /></Nav.Link>
-                      <Nav.Link href="#link"><IoLogoWhatsapp /></Nav.Link>
-                      <Nav.Link href="#home"><FaLinkedin /></Nav.Link>
-                      <Nav.Link href="#link"><FaSquareInstagram /></Nav.Link>
+                      <Nav.Link target='_blank' href="https://web.facebook.com/omolade.sunday.75"><FaFacebook /></Nav.Link>
+                      <Nav.Link target='_blank' href="https://wa.me/2347069258526"><IoLogoWhatsapp /></Nav.Link>
+                      <Nav.Link target='_blank' href="https://www.linkedin.com/in/omolade-sunday-6b6a69227/"><FaLinkedin /></Nav.Link>
+                      <Nav.Link target='_blank' href="https://www.instagram.com/d_active_guy"><FaSquareInstagram /></Nav.Link>
+                      
                     </Col>
                 </Row>
                 </Col>

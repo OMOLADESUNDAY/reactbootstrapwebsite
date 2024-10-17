@@ -22,4 +22,9 @@
     .footernavlink >div>a{
         text-align: center;
     }
+    .footerlogo{
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+    }
 }

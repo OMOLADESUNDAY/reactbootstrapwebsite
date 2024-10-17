@@ -6,7 +6,7 @@ import { serviceData } from './data';
 import ServiceItem from './ServiceItem';
 const Service = () => {
   return (
-    <Container fluid className='serviceContainer'>
+    <Container fluid className='serviceContainer' id='service'>
           <h1>Services</h1>
           <p className='servicetexty'>Webro offers a comprehensive range of web development services to 
             help you build a strong online presence. Our offerings include custom website development which include both frontend and backend development, 

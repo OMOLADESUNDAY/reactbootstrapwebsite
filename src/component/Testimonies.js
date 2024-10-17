@@ -44,7 +44,7 @@ const Testimonies = () => {
     ]
   };
   return (
-    <div >
+    <div id='testimony'>
       <h1 className='majorTestimonyText'>Our Testimonials</h1>
     <Slider className='testimonySlider' {...settings}>
         {TestimonyData.map((singleTestimonyItem)=>{

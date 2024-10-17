@@ -10,7 +10,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const About = () => {
   return (
-    <Container fluid className='aboutCon'>
+    <Container fluid className='aboutCon' id='about'>
       <h1>About Us</h1>
       <p className='abouttext'>At Webro, we specialize in building beautiful, functional websites that help businesses thrive online. Our team of skilled developers and designers is passionate about creating custom web solutions that meet your unique needs. From sleek and modern designs to seamless user experiences, we bring your vision to life with the latest web technologies. Whether you’re starting from scratch or looking to revamp your existing site, we’re here to help you succeed online.</p>
     <Row className='ghfg'>

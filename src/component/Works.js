@@ -8,7 +8,7 @@ import { MdOutlineImportantDevices } from "react-icons/md";
 
 const Works = () => {
   return (
-    <div className='worksContainer'>
+    <div className='worksContainer' id='works'>
         <h1>How It Works</h1>
         <h3>Unlock Astonishing Results with Just 3 Simple Steps!</h3>
         <Container >
