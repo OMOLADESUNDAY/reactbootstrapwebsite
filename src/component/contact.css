@@ -27,4 +27,7 @@
         text-align: center;
         display: block;
     }
+    .contactContainer{
+        padding: 0.5rem;
+    }
 }
